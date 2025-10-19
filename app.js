@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [];
-let numeroLimite = 100;
+let numeroLimite = 50;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -13,7 +13,7 @@ function mostrarTextoNaTela(tag, texto) {
 
 function ExibirMensagemInicial() {
     mostrarTextoNaTela("h1", "Jogo do Número Secreto");
-    mostrarTextoNaTela("p", "Escolha um número entre 1 e 100");
+    mostrarTextoNaTela("p", "Escolha um número entre 1 e 50");
 }
 
 ExibirMensagemInicial();
